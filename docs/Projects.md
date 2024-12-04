@@ -22,7 +22,7 @@ April 2024
 | Research on Remote Labs for Robotics Education | Human Wildlife Conflict- Fab 2023 Bhutan |
 |:-------------:|:------------------:|
 | <img width="1000" alt="cosmo" src="../images/projects/cl.png"> Low-cost remote lab platform to make industrial robotics education more accessible. We tested the platform with 1,000+ students during the lab’s e-Yantra Robotics Competition.| <img width="1000" alt="screen shot 2017-08-07 at 12 18 15 pm" src="../images/projects/fabBhutan.png">  At Fab 23 Conference in Bhutan I was deployed in Limbhukha village, we worked on developing sustainable solutions for wildlife interference on farms. 
-[Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | 
+[Read More](/docs/Projects/CL.html){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](/docs/Projects/Fab23.html){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | 
 
 
 | Automotive Grade Dead Reconking for Telematic Devices | Oxygen Concentrator Monitoring System |
