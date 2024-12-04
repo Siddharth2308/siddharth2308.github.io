@@ -1,31 +1,62 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+<iframe width="600" height="400" src="https://www.youtube.com/embed/Oqtj3wyrw8g?si=zBwC81_2O_iUpXPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+{: .mx-auto}
 
-More specifically, the created site:
+# Hi, I am Siddharth 
+{: .fs-9 }
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+I like to work on projects that tackle real life challenges by developing sustainable tech based solutions.
+I am interested in early stage prototyping and R&D projects that involve mechanical / electrical / software engineering.
+{: .fs-5 .fw-300 }
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+[More About Me](/docs/About.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Resume](#link_1){: .btn  .fs-5 .mb-4 .mb-md-0 }
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+<!-- {: .warning }
+> This website documents the features of the current `main` branch of the Just the Docs theme.  -->
 
-To get started with creating a site, simply:
+<!-- {: .note }
+> To use the theme, you do ***not*** need to clone or fork the [Just the Docs repo]! You should do that only if you intend to browse the theme docs locally, contribute to the development of the theme, or develop a new theme based on Just the Docs. -->
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+{: .highlight }
+> Currently I work in ***Embedded Real Time Systems Lab at IIT Bombay***. I am also associated with ***Vigyan Ashram*** and have worked on several projects with them. At the ERTS Lab I am involed in the E-Yantra Project, Agriculture IOT and Robotics Research. I have listed few of my projects below. Please vist the ***[Projects](docs/Projects.html)*** section to get better idea about my work.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+{: .note }
+> I am also the Theme Developer / Mentor in the [e-Yantra Robotics Competition](https://portal.e-yantra.org/themeIntro) for the theme of Logistic coBot. This theme focuses on training students about industrial robotics using remote lab setup and Robot Operating System (ROS2). 
 
-----
+|Sponsor / Affiliation | Project Name |
+|:------:|:-------------------------:|
+| inMachines | Optimizing grbl-HAL for high speed laser engraving using teensy 4.1 |
+| ERTS Lab IITB | Study of different cultivation approaches in polyhouse and their impact on pest growth |
+| ERTS Lab IITB | Development of micro climate data acquisition devices- AgriEdge and Mobile Sense (Control & Sensing) |
+| ERTS Lab IITB | Development of 4 wheeled differential drive robotic platform, targeted towards educational use and small scale automation. |
+| ERTS Lab IITB | Low Cost easy to make Drones and Flight Controller |
+| ERTS Lab IITB | Warehouse Automation- Theme Developer E-Yantra Robotics Competition |
+| Fab23 | Human Wildlife Conflict- Fab 23 Bhutan Conference |
+| Brose India | Automotive Grade Dead Reconking for Telematic Devices |
+| SmallDesign | Oxygen Concentrator Monitoring System |
+| Robotics Team | Locomotion & Odometry on a 3 wheel holonomic drive |
+| Robotics Team | Low Cost Wireless HID Device Development & Analysis |
+| Robotics Team | Library for communication with Proprietary HID Devices using Native USB on Teensy 4.1 |
+| Robotics Team | Android Application for Image Processing and Object Detection |
+| Robotics Team | Real Time Custom Object Detection using Open CV and Raspi 4B |
+| Robotics Team | Algorithm for Robot path rectification using IMU |
+| LinkedLoops Technologies  | Object Detection using IMU |
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+
+<!-- | | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> Developed an low cost 3 Dimensional Dead Reckoning System, that will assist the gps and provide navigational support in absence of GPS signal or when the signal is weak. We used the IMU of GY5-21, ADXL-345 etc. for the Implementation. [Read More](#link_0){: .btn .btn-blue .fs-4 .mb-2 .mb-md-0 .mr-2 } |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> Developed an low cost 3 Dimensional Dead Reckoning System, that will assist the gps and provide navigational support in absence of GPS signal or when the signal is weak. We used the IMU of GY5-21, ADXL-345 etc. for the Implementation. [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 }|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> Developed an low cost 3 Dimensional Dead Reckoning System, that will assist the gps and provide navigational support in absence of GPS signal or when the signal is weak. We used the IMU of GY5-21, ADXL-345 etc. for the Implementation. [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 }| 
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png">   [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 }  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 }| -->
+
+---
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
 [GitHub Pages]: https://docs.github.com/en/pages
