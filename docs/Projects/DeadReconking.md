@@ -10,7 +10,9 @@ The aim of the project is to create a low cost Automotive Grade Dead Reconking s
 {: .fs-5 .fw-300 }
 
 
+<center>
 <iframe src="https://1drv.ms/p/s!AruSUgSkri0cbJVQMn4uI64f6PE?embed=1&amp;em=2&amp;wdAr=1.7777777777777777" width="600px" height="400px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+</center>
 
 <div style="text-align:justify">
 Modern GPS systems are highly precise, but they can experience signal degradation or data loss, especially in areas like tunnels, underground passages, parking lots, hilly regions, or areas with many skyscrapers. This is because GPS devices require direct line-of-sight (LOS) communication with at least three satellites. When LOS is interrupted, navigation becomes challenging. To address this issue, the dead reckoning algorithm is used. Dead reckoning calculates the current position of a moving object based on a previously determined position, speed estimates, heading direction, and elapsed time. This method uses an Inertial Measurement Unit (IMU), an accelerometer, and incremental optical encoders to maintain accurate navigation when GPS signals are weak or unavailable.
