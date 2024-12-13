@@ -10,7 +10,12 @@ real life challenges and work on developing sustainable tech based solutions.
 {: .fs-5 .fw-300 }
 
 {: .highlight }
-I am also the Theme Developer / Mentor in the [e-Yantra Robotics Competition](https://portal.e-yantra.org/themeIntro) for the theme of Logistic coBot. This theme focuses on training students about industrial robotics using remote lab setup and Robot Operating System (ROS2). 
+> I am also the Theme Developer / Mentor in the [e-Yantra Robotics Competition](https://portal.e-yantra.org/themeIntro) for the theme of Logistic coBot. This theme focuses on training students about industrial robotics using remote lab setup and Robot Operating System (ROS2). <br>
+## Contact Information
+- siddharth.ydk [at] gmail [dot] com
+- Linkedin- [Siddharth Kulkarni](https://www.linkedin.com/in/siddharth-kulkarni-3b2138121/)
+- GitHub- [Siddharth2308](https://github.com/Siddharth2308)<br>
+ 
 
 ### Research Interests
 Broadly, speaking I am interested in Embedded Systems, Mechatronics, and Robotics and its integration to solved

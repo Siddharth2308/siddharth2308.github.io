@@ -33,34 +33,34 @@ April 2024
 | Multi-Agent Heirarchial Architecture for Quadraped Robot | Fab-able Low Cost Drones & Custom FlightController Firmware |
 |:-------------:|:------------------:|
 | <img width="800" alt="cosmo" src="../images/projects/quadruped_leg.jpg">  I am working in a team of 2, of developing a quadruped robot, the twist is each leg is an individual agent with no central coordinator. | <img width="1000" alt="screen shot 2017-08-07 at 12 18 15 pm" src="../images/projects/new drone.jpg"> I developed a ~1000Rs drone that can be made using generic fab lab equipments and components. It is arduino compatible, with a custom firmware implementing EKF.
-<!-- [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |  -->
+[Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | 
 
 | Robot Path Rectification & Odometry of 3 & 4 Wheel Holonomic Drive | Low Cost Wireless HID Device Development & Analysis |
 |:-------------:|:------------------:|
 | <img width="1000" alt="cosmo" src="../images/projects/chassis.jpeg">  I did the kinematical modeling and firmware for PID based Odometry and path rectifcation.  | <img width="500" alt="xbee" src="../images/projects/xbee.png">  I researched wireless HID devices in the robotics lab, benchmarking various wireless technologies for low-latency, high-data-rate communication. Targeting 2 Mbps with minimal computational overhead.
-<!-- [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |  -->
+[Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | 
 
 | [Open Source] Interfacing Proprietary HID Devices via Native USB on Teensy 4.1 | Android Application for Image Processing and Object Detection |
 |:-------------:|:------------------:|
 | <img width="1000" alt="cosmo" src="../images/projects/xbox.jpeg">  Developed a library for interfacing controllers like Xbox, Playstation etc. to work with ARM based controllers (Teeny 4.1)  | <img width="500" alt="img pro" src="../images/projects/ImageProcessing2.png"> Developed android application for deploying custom object detection models. Supports wireless communication for robot integration.
-<!-- [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |  -->
+[Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | 
 
 | Real Time Custom Object Detection using Open CV and Raspi 4B | Algorithm for Robot path rectification using IMU |
 |:-------------:|:------------------:|
 | <img width="1000" alt="cosmo" src="../images/projects/ImageProcessing1.png">  Developed an low cost 3 Dimensional Dead Reckoning System, that will assist the gps and provide navigational support in absence of GPS signal or when the signal is weak. We used the IMU of GY5-21, ADXL-345 etc. for the Implementation. | <img width="1000" alt="ss" src="../images/projects/chassis.jpeg"> Developed an low cost 3 Dimensional Dead Reckoning System, that will assist the gps and provide navigational support in absence of GPS signal or when the signal is weak. We used the IMU of GY5-21, ADXL-345 etc. for the Implementation.
-<!-- [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |  -->
+[Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | 
 
 
 | Object Detection using IMU | Electronic Attendance Module |
 |:-------------:|:------------------:|
 | <img width="400" alt="cosmo" src="../images/projects/magneto.jpg"> Developed firmware for custom object detection using inertial Measurement Units. The concept was to detect ferromagnetic objects based on deviations in the magnetic field to detect the type of automotive in the vicinity. | <img width="1000" alt="attend" src="../images/projects/attendance.png"> Developed an attendance module deployed in my college. It has cloud support and integrated into an procotored examination system.
-<!-- [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |  -->
+[Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | 
 
 
 | Speedometer Odometer & Telemetry for E-Bike | Regional Power Generation Predictor |
 |:-------------:|:------------------:|
 | <img width="1400" alt="cosmo" src="../images/projects/ebike.png">  Developed a display and telemetry system for an custom eBike. It used GLCD as output. | <img width="1000" alt="predictor" src="../images/projects/power.png"> Developed a power generation predictor for wind mills and turbines. It also gives reccomendations for acheiving optimum power output.
-<!-- [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |  -->
+[Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } | 
 
 
 <!-- | Proctored Examination Software | Project Management System Software |
