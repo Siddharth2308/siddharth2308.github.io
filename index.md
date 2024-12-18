@@ -16,7 +16,7 @@ I am interested in early stage prototyping and R&D projects that involve mechani
 {: .fs-5 .fw-300 }
 
 [More About Me](/docs/About.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Resume](#link_1){: .btn  .fs-5 .mb-4 .mb-md-0 }
+[Resume](https://drive.google.com/file/d/1BqXu4lQ8y6I8sad0HGIrNn4wKK8QTUir/view?usp=sharing){: .btn  .fs-5 .mb-4 .mb-md-0 }
 
 <!-- {: .warning }
 > This website documents the features of the current `main` branch of the Just the Docs theme.  -->
