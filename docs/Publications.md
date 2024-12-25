@@ -6,7 +6,7 @@ nav_order: 4
 
 # Papers and Patents
 
-### [Scalable and low-cost remote lab platforms: Teaching industrial robotics using open-source tools and understanding its social implications](https://icsr2024.dk/index.php/special-sessions/)
+### [Scalable and low-cost remote lab platforms: Teaching industrial robotics using open-source tools and understanding its social implications](https://arxiv.org/html/2412.15369v1)
 **<ins>Authors:</ins>** Amit Kumar, Jaison Jose, Archit Jain, **Siddharth Kulkarni**, and Kavi Arya<br>
 **<ins>Affiliation:</ins>** Embdded Real-Time Systems Lab, Indian Institute of Technology, Bombay<br>
 **<ins>Conference:</ins>** International Conference on Social Robotics Special Session with ROSCON<br>
