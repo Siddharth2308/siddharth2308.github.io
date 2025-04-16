@@ -32,7 +32,6 @@ I am interested in early stage prototyping and R&D projects that involve mechani
 
 |Sponsor / Affiliation | Project Name |
 |:------:|:-------------------------:|
-| inMachines | Optimizing grbl-HAL for high speed laser engraving using teensy 4.1 |
 | ERTS Lab IITB | Study of different cultivation approaches in polyhouse and their impact on pest growth |
 | ERTS Lab IITB | Development of micro climate data acquisition devices- AgriEdge and Mobile Sense (Control & Sensing) |
 | ERTS Lab IITB | Development of 4 wheeled differential drive robotic platform, targeted towards educational use and small scale automation. |
