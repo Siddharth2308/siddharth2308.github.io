@@ -57,17 +57,4 @@ I am interested in early stage prototyping and R&D projects that involve mechani
 | LinkedLoops Technologies  | Object Detection using IMU |
 
 
-<!-- | | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> Developed an low cost 3 Dimensional Dead Reckoning System, that will assist the gps and provide navigational support in absence of GPS signal or when the signal is weak. We used the IMU of GY5-21, ADXL-345 etc. for the Implementation. [Read More](#link_0){: .btn .btn-blue .fs-4 .mb-2 .mb-md-0 .mr-2 } |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> Developed an low cost 3 Dimensional Dead Reckoning System, that will assist the gps and provide navigational support in absence of GPS signal or when the signal is weak. We used the IMU of GY5-21, ADXL-345 etc. for the Implementation. [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 }|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> Developed an low cost 3 Dimensional Dead Reckoning System, that will assist the gps and provide navigational support in absence of GPS signal or when the signal is weak. We used the IMU of GY5-21, ADXL-345 etc. for the Implementation. [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 }| 
-|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png">   [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |
-|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 }  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 } |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="images/test.png"> [Read More](#link_0){: .btn .btn-green .fs-4 .mb-2 .mb-md-0 .mr-2 }| -->
-
 ---
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate

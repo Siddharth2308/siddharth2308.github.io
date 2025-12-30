@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: default
-# title: Home
-nav_enabled: false
----
+title: Home
+# nav_enabled: false
+--- -->
 #  Agri-Edge Development Board
 {: .fs-9 }
 

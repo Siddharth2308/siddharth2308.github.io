@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: default
 # title: Home
 nav_enabled: false
----
+--- -->
 #  MobileSense: Micro-Climate Sensing Device
 {: .fs-9 }
 

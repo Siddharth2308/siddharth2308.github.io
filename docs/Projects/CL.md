@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: default
 # title: Home
 nav_enabled: false
----
+--- -->
 #  Remote Labs for Robotics Education
 {: .fs-9 }
 
