@@ -32,8 +32,16 @@ I am interested in early stage prototyping and R&D projects that involve mechani
 
 |Sponsor / Affiliation | Project Name |
 |:------:|:-------------------------:|
+| Self | Micron Scale 3D printer- RepRap Micron |
+| Self | Outcome Driven Control for CNC Machines |
+| ERTS Lab IITB | Pest detection & Prediction for Capsicum & Custard Apple|
+| ERTS Lab IITB | Development of Open Source Universal Climate Data Acqusition System|
 | ERTS Lab IITB | Study of different cultivation approaches in polyhouse and their impact on pest growth |
 | ERTS Lab IITB | Development of micro climate data acquisition devices- AgriEdge and Mobile Sense (Control & Sensing) |
+| ERTS Lab IITB | Efficient Onion Storage System |
+| ERTS Lab IITB | Fruit Plant Post Harvest Segregation Machine with visual methods |
+| Tata Center IITB | Gynaecam- A Cervical Cancer Imaging Device |
+| Self | Optimizing grbl-HAL for high speed laser engraving using teensy 4.1 |
 | ERTS Lab IITB | Development of 4 wheeled differential drive robotic platform, targeted towards educational use and small scale automation. |
 | ERTS Lab IITB | Low Cost easy to make Drones and Flight Controller |
 | ERTS Lab IITB | Warehouse Automation- Theme Developer E-Yantra Robotics Competition |
