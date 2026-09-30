@@ -7,11 +7,33 @@ nav_order: 2
 # Talks & Workshops
 {: .fs-9 }
 
-Workshops I have run, sessions I have taught and events I have been invited to, from rural classrooms to faculty training programs, plus recorded technical talks.
+Workshops, Technical sessions and events I have been invited to, also some recorded technical talks.
 {: .fs-5 .fw-300 .page-lead }
 
 <div class="chip-row">
   <a class="label label-blue" href="#workshops--visits">Workshops &amp; Visits</a><a class="label label-purple" href="#recorded-talks">Recorded Talks</a>
+</div>
+
+---
+## Recorded Talks
+{: .mt-8 }
+
+<div class="talk">
+  <span class="kicker">eYIC Technical Session · September 2025</span>
+  <h3>How to Choose the Right Hardware</h3>
+  <p class="talk-context">A step-by-step approach to picking hardware for embedded systems, from defining requirements and choosing sensors, actuators and controllers to estimating power needs and prototyping for deployment.</p>
+  <div class="video-embed">
+    <iframe src="https://www.youtube.com/embed/G75l13bTSyk" title="eYIC: Technical Session on How to Choose the Right Hardware" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="talk">
+  <span class="kicker">e-Yantra Live Session · May 2025</span>
+  <h3>What is a Real-Time Operating System (RTOS)?</h3>
+  <p class="talk-context">The fundamentals of RTOS on microcontrollers: why they are needed, where they are used (drones, automobiles and more), and how to start using FreeRTOS in your own projects.</p>
+  <div class="video-embed">
+    <iframe src="https://www.youtube.com/embed/-yIEE8FsPZs" title="What is Real Time Operating System (RTOS)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 </div>
 
 ---
@@ -94,23 +116,3 @@ Workshops I have run, sessions I have taught and events I have been invited to, 
 
 </div>
 
-## Recorded Talks
-{: .mt-8 }
-
-<div class="talk">
-  <span class="kicker">eYIC Technical Session · September 2025</span>
-  <h3>How to Choose the Right Hardware</h3>
-  <p class="talk-context">A step-by-step approach to picking hardware for embedded systems, from defining requirements and choosing sensors, actuators and controllers to estimating power needs and prototyping for deployment.</p>
-  <div class="video-embed">
-    <iframe src="https://www.youtube.com/embed/G75l13bTSyk" title="eYIC: Technical Session on How to Choose the Right Hardware" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-</div>
-
-<div class="talk">
-  <span class="kicker">e-Yantra Live Session · May 2025</span>
-  <h3>What is a Real-Time Operating System (RTOS)?</h3>
-  <p class="talk-context">The fundamentals of RTOS on microcontrollers: why they are needed, where they are used (drones, automobiles and more), and how to start using FreeRTOS in your own projects.</p>
-  <div class="video-embed">
-    <iframe src="https://www.youtube.com/embed/-yIEE8FsPZs" title="What is Real Time Operating System (RTOS)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-</div>
