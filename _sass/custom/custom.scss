@@ -1,0 +1,705 @@
+// Site-specific styles, loaded by Just the Docs after the theme.
+
+// ---------- Responsive 16:9 video embed ----------
+.video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+
+  iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+// ---------- Profile header (Home / About) ----------
+.profile-hero {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  margin: 0.5rem 0 1.5rem;
+
+  h1 {
+    margin: 0 0 0.25rem !important;
+  }
+
+  @media (max-width: 42rem) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+.profile-subtitle {
+  margin: 0 !important;
+  font-size: 1.05rem !important;
+  color: $grey-dk-000;
+}
+
+// Round photo; shows initials until assets/profile.jpg exists
+.avatar {
+  position: relative;
+  flex: none;
+  overflow: hidden;
+  width: 128px;
+  height: 128px;
+  border: 3px solid $border-color;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2c84fa, #7253ed);
+
+  &::before {
+    content: attr(data-initials);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0.5rem;
+
+  .btn {
+    margin: 0 !important;
+  }
+}
+
+.now-card {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid $link-color;
+  border-radius: 0 8px 8px 0;
+  background: rgba(44, 132, 250, 0.08);
+
+  p {
+    margin: 0;
+  }
+}
+
+// ---------- Section link cards (Home "Explore") ----------
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+
+.link-card {
+  display: block;
+  padding: 1rem 1.1rem;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  color: $body-text-color !important;
+  text-decoration: none !important;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    border-color: $link-color;
+    transform: translateY(-2px);
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: $body-heading-color;
+    font-size: 1rem;
+
+    &::after {
+      content: " →";
+      color: $link-color;
+    }
+  }
+
+  span {
+    font-size: 0.85rem;
+    color: $grey-dk-000;
+  }
+}
+
+// ---------- Experience timeline (About) ----------
+.xp {
+  h3 {
+    margin: 0 !important;
+    font-size: 1.05rem !important;
+  }
+
+  .xp-org {
+    margin: 0.1rem 0 0 !important;
+    font-weight: 500;
+  }
+
+  .xp-date {
+    display: block;
+    margin: 0.15rem 0 0.4rem;
+    font-size: 0.8rem !important;
+    color: $grey-dk-000;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.timeline .xp {
+  position: relative;
+  margin: 0 0 1.75rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.4rem;
+    left: calc(-1.5rem - 7px);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: $link-color;
+    box-shadow: 0 0 0 4px $body-background-color;
+  }
+}
+
+.timeline .xp--past::before {
+  background: $grey-dk-000;
+}
+
+.interest-grid--2 {
+  @media (min-width: 42rem) {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+
+  div {
+    padding: 0.9rem 1rem;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: $body-heading-color;
+  }
+
+  span {
+    font-size: 0.875rem;
+  }
+}
+
+
+// ---------- Page lead paragraph ----------
+.page-lead {
+  max-width: 46rem;
+  color: $body-text-color;
+}
+
+// ---------- Section kicker (small caps line above a heading) ----------
+.kicker {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem !important;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $grey-dk-000;
+}
+
+// ---------- Project card (media + text) ----------
+.showcase-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+
+  @media (min-width: 50rem) {
+    grid-template-columns: 1.15fr 1fr;
+    align-items: start;
+  }
+
+  h3 {
+    margin-top: 0 !important;
+  }
+
+  p {
+    margin-top: 0.5rem;
+  }
+
+  .label {
+    margin-left: 0;
+    margin-right: 0.25rem;
+  }
+}
+
+// Featured variant: media on top, full width
+.showcase-card--featured {
+  @media (min-width: 50rem) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-team {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid $border-color;
+  font-size: 0.875rem !important;
+  line-height: 1.6;
+  color: $grey-dk-000;
+
+  strong {
+    color: $body-text-color;
+    font-weight: 600;
+  }
+}
+
+// ---------- Photo gallery inside a card ----------
+.card-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  img:first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+// ---------- Two images side by side (stacks on phones) ----------
+.photo-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+
+  @media (min-width: 42rem) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  figcaption {
+    margin-top: 0.35rem;
+    font-size: 0.8rem !important;
+    color: $grey-dk-000;
+    text-align: center;
+  }
+}
+
+// ---------- Instagram reel embeds ----------
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(326px, 1fr));
+  gap: 1rem;
+  align-items: start;
+  justify-items: center;
+  margin: 1rem 0 1.5rem;
+
+  .instagram-media {
+    margin: 0 !important;
+  }
+}
+
+// ---------- Robot tiles (image + name + short spec) ----------
+.robot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.robot-tile {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+
+  h4 {
+    margin: 0 0 0.25rem !important;
+    font-size: 1rem !important;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  p {
+    margin: 0.35rem 0 0;
+    font-size: 0.875rem !important;
+    line-height: 1.5;
+  }
+
+  .label {
+    margin: 0.35rem 0.25rem 0 0;
+  }
+}
+
+.tile-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.robot-grid[hidden],
+#project-categories[hidden],
+.view-toggle[hidden] {
+  display: none;
+}
+
+// ---------- Projects view toggle (mixed / by category) ----------
+.view-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.25rem;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+
+  button {
+    padding: 0.35rem 0.9rem;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: $body-text-color;
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    &[aria-pressed="true"] {
+      background: $link-color;
+      color: #fff;
+    }
+  }
+}
+
+.view-toggle__label {
+  padding: 0 0.4rem 0 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $grey-dk-000;
+}
+
+.category-heading {
+  margin-top: 2.5rem !important;
+}
+
+// Category name on each card only matters in the mixed view
+.card-kicker {
+  margin-bottom: 0.15rem;
+}
+
+.projects-by-category .card-kicker {
+  display: none;
+}
+
+.robot-tile__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0.85rem 1rem 1rem;
+}
+
+// Whole card is clickable: the "Read more" link stretches over the tile
+.robot-tile--link {
+  position: relative;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover,
+  &:focus-within {
+    border-color: $link-color;
+    transform: translateY(-2px);
+  }
+}
+
+.read-more {
+  margin-top: auto;
+  padding-top: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: $link-color;
+  text-decoration: none !important;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+}
+
+.tile-media {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #1b1b22;
+}
+
+// Image contains the whole robot; don't crop it
+.tile-media--contain {
+  object-fit: contain;
+}
+
+// Stand-in for a photo that hasn't been added yet
+.tile-media--placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border-bottom: 1px dashed $border-color;
+  color: $grey-dk-000;
+  font-size: 0.8rem;
+  text-align: center;
+
+  strong {
+    color: $body-text-color;
+    font-size: 1.05rem;
+  }
+}
+
+// Stand-in for a video that hasn't been added yet
+.video-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px dashed $border-color;
+  border-radius: 8px;
+  background: #1b1b22;
+  color: $grey-dk-000;
+  font-size: 0.9rem;
+}
+
+// Title row with a small robot thumbnail
+.arm-head {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: 0.25rem;
+
+  img,
+  .arm-thumb {
+    flex: none;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #1b1b22;
+  }
+
+  .arm-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed $border-color;
+    font-size: 0.65rem;
+    color: $grey-dk-000;
+  }
+
+  h3 {
+    margin: 0 !important;
+  }
+}
+
+.chip-row {
+  margin: 0.5rem 0 1rem;
+
+  .label {
+    margin: 0 0.35rem 0.4rem 0;
+  }
+}
+
+.credits {
+  margin-top: 3rem;
+  font-size: 0.75rem !important;
+  color: $grey-dk-000;
+}
+
+// ---------- Talks list ----------
+.talk {
+  margin: 2rem 0 2.5rem;
+  max-width: 48rem;
+
+  h3 {
+    margin-top: 0 !important;
+    margin-bottom: 0.25rem;
+  }
+
+  .talk-context {
+    margin: 0 0 0.75rem;
+    color: $grey-dk-000;
+  }
+}
+
+// ---------- Visit card (image + summary + read more) ----------
+.visit {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  max-width: 48rem;
+
+  @media (min-width: 42rem) {
+    grid-template-columns: 16rem 1fr;
+    align-items: center;
+  }
+
+  h3 {
+    margin-top: 0 !important;
+  }
+
+  p {
+    margin: 0.35rem 0 0.6rem;
+  }
+
+}
+
+// Quiet fact chips under a visit summary
+.visit-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.85rem;
+
+  span {
+    padding: 0.1rem 0.65rem;
+    border: 1px solid $border-color;
+    border-radius: 999px;
+    font-size: 0.78rem !important;
+    line-height: 1.6;
+    color: $grey-dk-000;
+  }
+
+  .visit-meta__org {
+    border-color: rgba(44, 132, 250, 0.45);
+    color: $link-color;
+  }
+}
+
+.visit-link {
+  display: inline-block;
+  margin-top: 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+// Photo slot: shows a placeholder until the image file exists, then the image covers it
+.visit-media {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 1px dashed $border-color;
+  border-radius: 8px;
+  background: #1b1b22;
+
+  &::before {
+    content: "Photo coming soon";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: $grey-dk-000;
+  }
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.visit-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0 1.75rem;
+}
+
+// Vertical timeline for the list of visits
+.timeline {
+  position: relative;
+  margin: 1.5rem 0 2rem;
+  padding-left: 1.5rem;
+  border-left: 2px solid $border-color;
+
+  .visit {
+    position: relative;
+    align-items: start;
+    margin: 0 0 2rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.45rem;
+      left: calc(-1.5rem - 7px);
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: $link-color;
+      box-shadow: 0 0 0 4px $body-background-color;
+    }
+  }
+}

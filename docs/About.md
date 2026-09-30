@@ -1,83 +1,116 @@
 ---
 layout: home
 title: About Me
-nav_order: 5
+nav_order: 7
 ---
-### Introduction
-I am an Electronics Engineer, and I currently work in the ERTS Lab at IIT Bombay. My work at the lab is focused on research in agricultural automation and development of various weather data acquisition devices. Another domain I work on at ERTS Lab is remote labs for robotics education. I am also associated with Vigyan
-Ashram and volunteer to help them in many of their technical projects. I usually work on projects that address
-real life challenges and work on developing sustainable tech based solutions.
+
+<div class="profile-hero">
+  <div class="avatar" data-initials="SK"><img src="/assets/profile.jpg" alt="Siddharth Kulkarni" onerror="this.remove()"></div>
+  <div>
+    <h1 class="fs-9">Siddharth Kulkarni</h1>
+    <p class="profile-subtitle">Master's Student · <a href="https://cba.mit.edu/">Center for Bits and Atoms</a>, MIT</p>
+  </div>
+</div>
+
+I am a first-year master's student at the [Center for Bits and Atoms](https://cba.mit.edu/) at MIT. I am an electronics engineer with a background in embedded systems, circuit design and robotics.
 {: .fs-5 .fw-300 }
 
-{: .highlight }
-> I am also the Theme Developer / Mentor in the [e-Yantra Robotics Competition](https://portal.e-yantra.org/themeIntro) for the theme of Logistic coBot. This theme focuses on training students about industrial robotics using remote lab setup and Robot Operating System (ROS2). <br>
-## Contact Information
-- siddharth.ydk [at] gmail [dot] com
-- Linkedin- [Siddharth Kulkarni](https://www.linkedin.com/in/siddharth-kulkarni-3b2138121/)
-- GitHub- [Siddharth2308](https://github.com/Siddharth2308)<br>
- 
+Before joining CBA, I worked at the Embedded Real-Time Systems (ERTS) Lab at IIT Bombay on research in autonomous navigation across robotics platforms, robotic manipulation, and agricultural automation. I also helped run the lab's flagship outreach activity, the [e-Yantra Robotics Competition](https://portal.e-yantra.org/). I am associated with [Vigyan Ashram](https://vigyanashram.com/) too, and have worked with them on several projects.
 
-### Research Interests
-Broadly, speaking I am interested in Embedded Systems, Mechatronics, and Robotics and its integration to solved
-real world challenges. I enjoy working on early stage prototypes and projects that involve low level implementations
-in electronics, mechanical or software engineering. I am open to explore adjacent research areas. The topic that
-currently fascinates me is, studying multi-agent approach and control policies in low-level mechatronic systems
-which include CNC’s and eventually robotics going ahead.
+<div class="button-row">
+  <a class="btn btn-primary" href="https://drive.google.com/file/d/1BqXu4lQ8y6I8sad0HGIrNn4wKK8QTUir/view?usp=sharing">Resume</a>
+  <a class="btn" href="https://github.com/Siddharth2308">GitHub</a>
+  <a class="btn" href="https://www.linkedin.com/in/siddharth-kulkarni-3b2138121/">LinkedIn</a>
+</div>
 
-I am also interested in sensor technology and data acquistion, particularly for micro and meso climate sensing in agricultural and urban context.
-{: .fs-5 .fw-300 }
+## Research Interests
+{: .mt-8 }
 
-### Work Experience
+I am drawn to early-stage prototypes and projects that need low-level work across electronics, mechanics and software, applied to real-world problems.
 
-{: .new }
-> **Senior Project Technical Assitant, Embedded Real Time Systems Lab, IIT Bombay**<br>
-*November 2023 - Current*<br>
-Contributing as a Developer to the E-Yantra Project. Design and Development of Firmware and Electronics for the Research Projects in Lab. Individual Research projects in mechatronics in collaboration with colleagues.
+<div class="interest-grid interest-grid--2">
+  <div><strong>Multi-Agent Control</strong><span>Multi-agent approaches and control policies in low-level mechatronic systems, from CNC machines to robotics.</span></div>
+  <div><strong>Embedded Systems &amp; Mechatronics</strong><span>Firmware, circuit design and the mechanical systems they drive.</span></div>
+  <div><strong>Robot Autonomy</strong><span>Autonomous navigation across drive types, and robotic manipulation.</span></div>
+  <div><strong>Sensing &amp; Data Acquisition</strong><span>Micro and meso-climate sensing in agricultural and urban settings.</span></div>
+</div>
 
-{: .highlight }
-> **Team Leader, Robotics Lab, MMCOE**<br>
-*January 2020 - 2023*<br>
-Worked with the Robotics Lab of my college for 3 years. Carried out some student level research in robotics and wireless communication. Manufactured 6 unique robots. Was selected as the Team Leader during my final Year. Participated and won awards in International Robotics Competition ABU Robocon. 
+## Experience
+{: .mt-8 }
 
-{: .highlight }
-> **Intern Electronics Engineer, Brose India Automotive**<br>
-*October 2022 - June 2023*<br>
-Developed a low cost 3-Dimensional Automotive Grade Dead Reconking System. Worked with Multiple IMU’s, Xtensa 32-bit Microprocessor, GPS. I was responsible for the Firmware development and Embedded side of the project
+<div class="timeline">
+  <div class="xp">
+    <h3>Graduate Research Assistant</h3>
+    <p class="xp-org"><a href="https://cba.mit.edu/">Center for Bits and Atoms</a>, MIT</p>
+    <span class="xp-date">2026 – Present</span>
+  </div>
 
-{: .highlight }
-> **Intern Electronics Engineer, Small Design**<br>
-*February 2022 - March 2022*<br>
-Developed a system to monitor the input & output parameters of an oxygen concentrator system, to be installed in an ambulance. Monitoring Flow rate & purity of oxygen through the oxygen concentrator, Monitoring the ambulance Battery & Inverter Voltage and Current Consumption. All the data collected was logged & the system alerted the responsible individual in case of discrepancy.
+  <div class="xp xp--past">
+    <h3>Senior Project Technical Assistant</h3>
+    <p class="xp-org">Embedded Real-Time Systems Lab, IIT Bombay</p>
+    <span class="xp-date">November 2023 – 2026</span>
+    <p>Research in autonomous navigation, robotic manipulation and agricultural automation, and electronics and firmware for the lab's research projects. For the e-Yantra Robotics Competition, I was theme developer and mentor for the Logistic coBot theme, and I mentored summer interns. See <a href="Robots.html">Robots</a> and <a href="InternshipProjects.html">Projects with Interns</a>.</p>
+  </div>
 
-{: .highlight }
-> **Intern Electronics Engineer, LinkedLoops Technologies**<br>
-*August 2021 - January 2022*<br>
-Developing standard firmware for communication between two ARM Controllers. Interfacing II2SMDC 6 axis magnetometer with LoRaWAN and Stm32 F401RE. Transmitting 3-axis magnetic data by establishing communication between two LoraWAN boards. Developed the firmaware to detect shape of the objects based on the change in the magnetic field.
+  <div class="xp xp--past">
+    <h3>Intern Electronics Engineer</h3>
+    <p class="xp-org">Brose India Automotive</p>
+    <span class="xp-date">October 2022 – June 2023</span>
+    <p>Developed a low-cost, automotive-grade 3D dead reckoning system using multiple IMUs, an Xtensa 32-bit processor and GPS. I was responsible for the firmware and embedded side. <a href="Projects/DeadReconking.html">Read more</a></p>
+  </div>
 
-{: .highlight }
-> **Backend Developer, Auroville**<br>
-*November 2023 - Current*<br>
-Gained working experience with AWS with Elixir Phoenix Framework. Primarily worked on Purnam Labs Project.
+  <div class="xp xp--past">
+    <h3>Intern Electronics Engineer</h3>
+    <p class="xp-org">Small Design</p>
+    <span class="xp-date">February 2022 – March 2022</span>
+    <p>Built a system to monitor an oxygen concentrator installed in an ambulance: oxygen flow rate and purity, plus the ambulance battery and inverter voltage and current. It logged all data and alerted the responsible person when anything went out of range. <a href="Projects/Concentrator.html">Read more</a></p>
+  </div>
 
-{: .highlight }
-> **Full Stack Developer, Vigyan Ashram**<br>
-*November 2023 - Current*<br>
-Developed a fully responsive web application to handle all the canteen transactions of Vigyan Ashram Pabal. 100+ Active Users, Stack Used MERN The website is live and is actively maintained by me. Developed a user-friendly Content Management System.
+  <div class="xp xp--past">
+    <h3>Intern Electronics Engineer</h3>
+    <p class="xp-org">LinkedLoops Technologies</p>
+    <span class="xp-date">August 2021 – January 2022</span>
+    <p>Wrote firmware for communication between two ARM controllers, and interfaced a magnetometer with an STM32F401RE and LoRaWAN to transmit 3-axis magnetic data between boards. Developed firmware that detects the shape of objects from changes in the magnetic field.</p>
+  </div>
 
+  <div class="xp xp--past">
+    <h3>Team Leader, Robotics Lab</h3>
+    <p class="xp-org">Marathwada Mitra Mandal's College of Engineering, Pune</p>
+    <span class="xp-date">January 2020 – 2023</span>
+    <p>Three years in my college's robotics lab, leading the team in my final year. We built six robots, did student-level research in robotics and wireless communication, and won awards at the international ABU Robocon competition. <a href="Robots.html#abu-robocon">See the robots</a></p>
+  </div>
+</div>
 
-{: .highlight }
-> **Full Stack Developer, Nisargayan**<br>
-*November 2023 - Current*<br>
-Developed a fully responsive web application to for Nisargayan The website is live and is actively maintained by me. Developed a user-friendly Content Management System.
+### Web Development
+{: .mt-6 }
 
+Alongside my engineering work, I have built and maintain web applications for organisations I work with.
 
-----
+<div class="interest-grid">
+  <div><strong>Vigyan Ashram</strong><span>A responsive web app that handles all canteen transactions at Vigyan Ashram, Pabal, with a content management system. Built on MERN; 100+ active users.</span></div>
+  <div><strong>Nisargayan</strong><span>A responsive website with a content management system, which I maintain.</span></div>
+  <div><strong>Auroville</strong><span>Backend development on the Purnam Labs project with Elixir, Phoenix and AWS.</span></div>
+</div>
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+## Education
+{: .mt-8 }
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+<div class="timeline">
+  <div class="xp">
+    <h3>Master's Student</h3>
+    <p class="xp-org"><a href="https://cba.mit.edu/">Center for Bits and Atoms</a>, Massachusetts Institute of Technology</p>
+  </div>
+  <div class="xp xp--past">
+    <h3>Bachelor of Engineering, Electronics &amp; Telecommunication</h3>
+    <p class="xp-org">Marathwada Mitra Mandal's College of Engineering, Pune</p>
+    <span class="xp-date">Savitribai Phule Pune University</span>
+  </div>
+</div>
+
+## Contact
+{: .mt-8 }
+
+- **Email:** siddharth dot kulkarni at cba.mit.edu
+- **Personal:** siddharth.ydk [at] gmail [dot] com
+- **LinkedIn:** [Siddharth Kulkarni](https://www.linkedin.com/in/siddharth-kulkarni-3b2138121/)
+- **GitHub:** [Siddharth2308](https://github.com/Siddharth2308)

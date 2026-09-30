@@ -4,57 +4,73 @@ layout: home
 nav_order: 1
 ---
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/Oqtj3wyrw8g?si=zBwC81_2O_iUpXPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="profile-hero">
+  <div class="avatar" data-initials="SK"><img src="/assets/profile.jpg" alt="Siddharth Kulkarni" onerror="this.remove()"></div>
+  <div>
+    <h1 class="fs-9">Hi, I am Siddharth</h1>
+    <p class="profile-subtitle">Master's Student · <a href="https://cba.mit.edu/">Center for Bits and Atoms</a>, MIT</p>
+  </div>
+</div>
 
-{: .mx-auto}
-
-# Hi, I am Siddharth 
-{: .fs-9 }
-
-I like to work on projects that tackle real life challenges by developing sustainable tech based solutions.
-I am interested in early stage prototyping and R&D projects that involve mechanical / electrical / software engineering.
+I like to work on projects that tackle real-life challenges by developing sustainable, tech-based solutions. I am interested in early-stage prototyping and R&D projects that involve mechanical, electrical and software engineering.
 {: .fs-5 .fw-300 }
 
-[More About Me](/docs/About.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Resume](https://drive.google.com/file/d/1BqXu4lQ8y6I8sad0HGIrNn4wKK8QTUir/view?usp=sharing){: .btn  .fs-5 .mb-4 .mb-md-0 }
+<div class="button-row">
+  <a class="btn btn-primary fs-5" href="/docs/About.html">More about me</a>
+  <a class="btn fs-5" href="https://drive.google.com/file/d/1BqXu4lQ8y6I8sad0HGIrNn4wKK8QTUir/view?usp=sharing">Resume</a>
+  <a class="btn fs-5" href="https://github.com/Siddharth2308">GitHub</a>
+  <a class="btn fs-5" href="https://www.linkedin.com/in/siddharth-kulkarni-3b2138121/">LinkedIn</a>
+</div>
 
-<!-- {: .warning }
-> This website documents the features of the current `main` branch of the Just the Docs theme.  -->
+<div class="now-card" markdown="1">
+**Now:** first-year master's student at the [Center for Bits and Atoms](https://cba.mit.edu/), MIT.<br>
+**Before:** the Embedded Real-Time Systems (ERTS) Lab at IIT Bombay, researching autonomous navigation across robotics platforms, robotic manipulation and agricultural automation, and helping run the [e-Yantra Robotics Competition](https://portal.e-yantra.org/).
+</div>
 
-<!-- {: .note }
-> To use the theme, you do ***not*** need to clone or fork the [Just the Docs repo]! You should do that only if you intend to browse the theme docs locally, contribute to the development of the theme, or develop a new theme based on Just the Docs. -->
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/Oqtj3wyrw8g" title="Portfolio Video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-{: .highlight }
-> Currently I work in ***Embedded Real Time Systems Lab at IIT Bombay***. I am also associated with ***Vigyan Ashram*** and have worked on several projects with them. At the ERTS Lab I am involed in the E-Yantra Project, Agriculture IOT and Robotics Research. I have listed few of my projects below. Please vist the ***[Projects](docs/Projects.html)*** section to get better idea about my work.
+## Featured Work
+{: .mt-8 }
 
-{: .note }
-> I am also the Theme Developer / Mentor in the [e-Yantra Robotics Competition](https://portal.e-yantra.org/themeIntro) for the theme of Logistic coBot. This theme focuses on training students about industrial robotics using remote lab setup and Robot Operating System (ROS2). 
+<div class="robot-grid">
+  <div class="robot-tile robot-tile--link">
+    <img class="tile-media" src="images/projects/f1tenth/WhatsApp%20Image%202026-08-20%20at%203.42.25%20AM.jpeg" alt="F1TENTH race car" loading="lazy">
+    <div class="robot-tile__body">
+      <span class="kicker card-kicker">Robotics &amp; Autonomy</span>
+      <h4>F1TENTH Autonomous Race Car</h4>
+      <p>Raceline optimization and Stanley, MPPI and MPC racing controllers on a 1/10-scale car.</p>
+      <a class="read-more" href="docs/Projects/F1Tenth.html">Read more →</a>
+    </div>
+  </div>
+  <div class="robot-tile robot-tile--link">
+    <img class="tile-media" src="images/projects/gynaecam/control_board.jpg" alt="GynaeCam control board" loading="lazy">
+    <div class="robot-tile__body">
+      <span class="kicker card-kicker">Electronics &amp; Embedded</span>
+      <h4>GynaeCam Electronics</h4>
+      <p>USB-C PD, battery management and a high-power LED driver on a 4-layer board.</p>
+      <a class="read-more" href="docs/Projects/GynaeCam.html">Read more →</a>
+    </div>
+  </div>
+  <div class="robot-tile robot-tile--link">
+    <img class="tile-media" src="images/projects/cl.png" alt="Remote lab setup" loading="lazy">
+    <div class="robot-tile__body">
+      <span class="kicker card-kicker">Research</span>
+      <h4>Remote Labs for Robotics Education</h4>
+      <p>Low-cost remote lab platforms, used by 1,000+ students in the e-Yantra Robotics Competition.</p>
+      <a class="read-more" href="docs/Projects/CL.html">Read more →</a>
+    </div>
+  </div>
+</div>
 
-|Sponsor / Affiliation | Project Name |
-|:------:|:-------------------------:|
-| Self | Micron Scale 3D printer- RepRap Micron |
-| Self | Outcome Driven Control for CNC Machines |
-| ERTS Lab IITB | Pest detection & Prediction for Capsicum & Custard Apple|
-| ERTS Lab IITB | Development of Open Source Universal Climate Data Acqusition System|
-| ERTS Lab IITB | Study of different cultivation approaches in polyhouse and their impact on pest growth |
-| ERTS Lab IITB | Development of micro climate data acquisition devices- AgriEdge and Mobile Sense (Control & Sensing) |
-| ERTS Lab IITB | Efficient Onion Storage System |
-| ERTS Lab IITB | Fruit Plant Post Harvest Segregation Machine with visual methods |
-| Tata Center IITB | Gynaecam- A Cervical Cancer Imaging Device |
-| Self | Optimizing grbl-HAL for high speed laser engraving using teensy 4.1 |
-| ERTS Lab IITB | Development of 4 wheeled differential drive robotic platform, targeted towards educational use and small scale automation. |
-| ERTS Lab IITB | Low Cost easy to make Drones and Flight Controller |
-| ERTS Lab IITB | Warehouse Automation- Theme Developer E-Yantra Robotics Competition |
-| Fab23 | Human Wildlife Conflict- Fab 23 Bhutan Conference |
-| Brose India | Automotive Grade Dead Reconking for Telematic Devices |
-| SmallDesign | Oxygen Concentrator Monitoring System |
-| Robotics Team | Locomotion & Odometry on a 3 wheel holonomic drive |
-| Robotics Team | Low Cost Wireless HID Device Development & Analysis |
-| Robotics Team | Library for communication with Proprietary HID Devices using Native USB on Teensy 4.1 |
-| Robotics Team | Android Application for Image Processing and Object Detection |
-| Robotics Team | Real Time Custom Object Detection using Open CV and Raspi 4B |
-| Robotics Team | Algorithm for Robot path rectification using IMU |
-| LinkedLoops Technologies  | Object Detection using IMU |
+## Explore
+{: .mt-8 }
 
-
----
+<div class="link-grid">
+  <a class="link-card" href="docs/Projects.html"><strong>Projects</strong><span>Robots, PCBs and field devices I have designed and built.</span></a>
+  <a class="link-card" href="docs/Robots.html"><strong>Robots</strong><span>Mobile robots, robotic arms and my ABU Robocon robots.</span></a>
+  <a class="link-card" href="docs/Talks.html"><strong>Talks &amp; Workshops</strong><span>Faculty training, outreach workshops and recorded talks.</span></a>
+  <a class="link-card" href="docs/InternshipProjects.html"><strong>Projects with Interns</strong><span>Work my interns built under my mentorship.</span></a>
+  <a class="link-card" href="docs/Publications.html"><strong>Publications</strong><span>Papers and patents.</span></a>
+</div>

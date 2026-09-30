@@ -6,9 +6,20 @@ nav_enabled: false
 #  Remote Labs for Robotics Education
 {: .fs-9 }
 
-<center>
-<iframe width="600" height="400" src="https://www.youtube.com/embed/gsHRoDTlpF0?si=XPAbZIzufzbnQbux" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
+<div class="photo-row">
+  <figure>
+    <div class="video-embed">
+      <iframe src="https://www.youtube.com/embed/gsHRoDTlpF0" title="eYRC 2023-24: Cosmo Logistic (CL) Theme Film" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <figcaption>Cosmo Logistic (eYRC 2023-24)</figcaption>
+  </figure>
+  <figure>
+    <div class="video-embed">
+      <iframe src="https://www.youtube.com/embed/C349iywNu6s" title="Logistic coBot (LB) eYRC 2024-25 Theme Film" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <figcaption>Logistic coBot (eYRC 2024-25)</figcaption>
+  </figure>
+</div>
 
 
 ## Overview
