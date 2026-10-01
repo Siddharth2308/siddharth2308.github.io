@@ -18,6 +18,49 @@
   }
 }
 
+// Vertical 9:16 variant for YouTube Shorts
+.video-embed--short {
+  aspect-ratio: 9 / 16;
+  width: auto;
+  height: 100%;
+  border-radius: 0;
+}
+
+// Square frame for a vertical video, so it takes the same column width as 16:9 media
+.video-stage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #1b1b22;
+
+  // Blurred poster fills the space on either side of the video
+  &::before {
+    content: "";
+    position: absolute;
+    inset: -10%;
+    background: var(--poster) center / cover no-repeat;
+    filter: blur(28px) brightness(0.45);
+  }
+}
+
+// Instagram post embed, centred in a card's media column.
+// Its height follows its width, so the max-width keeps the card short.
+.insta-embed {
+  display: flex;
+  justify-content: center;
+
+  .instagram-media,
+  iframe {
+    max-width: 240px !important;
+    min-width: 0 !important; // Instagram's 326px minimum overflows on phones
+    margin: 0 !important;
+  }
+}
+
 // ---------- Profile header (Home / About) ----------
 .profile-hero {
   display: flex;
